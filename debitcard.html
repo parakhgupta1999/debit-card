@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>devit vard</title>
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    body {
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        position: relative;
+        background-color: black;
+        max-width: 380px;
+        border-radius: 30px;
+        padding: 25px;
+        width: 100%;
+        min-width: 200px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .card-details {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        margin-top: 30px;
+    }
+
+    .logo h5 {
+        color: whitesmoke;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    header,
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    h6 {
+        color: #fff;
+        font-size: 10px;
+        font-weight: 400;
+    }
+
+    .logo img {
+        width: 40px;
+        margin-right: 8px;
+    }
+
+    .card-details {
+        color: wheat;
+    }
+
+    h5.number {
+        margin-top: 4px;
+        font-size: 18px;
+        letter-spacing: 1px;
+    }
+
+    h5.name {
+        margin-top: 35px;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <header>
+            <span class="logo">
+                <img src="logo.png" alt="">
+                <h5>Master Card</h5>
+            </span>
+            <img src="chip.png" alt="" class="chip" width="60px" />
+        </header>
+        <div class="card-details">
+            <div class="name-number">
+                <h6>Card Number</h6>
+                <h5 class="number">
+                    8908 7802 7845 8027
+                </h5>
+                <h5 class="name">
+                    Parakh Gupta
+                </h5>
+            </div>
+            <div class="valid-date">
+                <h6>Vaild Till</h6>
+                <h5>20/ 90
+
+                </h5>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
